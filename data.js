@@ -51,7 +51,7 @@ export const portfolioData = {
       category: "Museum Project",
       year: "2024",
       location: "UMD, College Park",
-      description: "Project aim to create a plaza and a barbor of kits to create a concept that would interact and show a connection with the site, especially with the harbor.",
+      description: "Project aim to create a plaza and a harbor to create a concept that would interact and show a connection with the site, especially with the harbor.",
       image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image7.png?raw=true"
     },
     {
