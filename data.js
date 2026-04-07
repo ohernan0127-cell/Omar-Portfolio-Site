@@ -74,12 +74,12 @@ export const portfolioData = {
     },
     {
       id: 5,
-      title: "Minimalist Library",
-      category: "Public",
-      year: "2023",
-      location: "Copenhagen, Denmark",
-      description: "A sanctuary for knowledge defined by clean lines, natural light, and a curated selection of sustainable timber.",
-      image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=1200"
+      title: "The Avalanche",
+      category: "Pavillion Project",
+      year: "2024",
+      location: "UMD College Park",
+      description: "In course the main objective was to gain skills using the software Rhino alongside 3D printing through Grasshopper. This works meticulous development of a pavillion design.",
+      image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image9.png?raw=true"
     },
     {
       id: 6,
