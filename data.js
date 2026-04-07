@@ -29,20 +29,20 @@ export const portfolioData = {
   contact: {
     title: "Let's build <br> <i>together.</i>",
     subtitle: "Have a project in mind? We'd love to hear from you.",
-    email: "hello@archiminimal.com",
-    phone: "+1 (234) 567-890",
-    address: "123 Design St, Berlin, DE"
+    email: "omar0127@outlook.com",
+    phone: "+1 (443) 822-5413",
+    address: "Annapolis, Maryland"
   },
 
   // Projects Array
   projects: [
     {
       id: 1,
-      title: "The Concrete Monolith",
-      category: "Residential",
-      year: "2023",
-      location: "Zurich, Switzerland",
-      description: "A brutalist-inspired residence that plays with light and shadow through its massive concrete volumes and strategic openings.",
+      title: "Spiraling Tower",
+      category: "Parametric Project",
+      year: "2025",
+      location: "UMD, College Park",
+      description: "The purpose for creating a spiraling tower was to show the concept of shift in tectonic plates. ",
       image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200"
     },
     {
