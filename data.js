@@ -70,7 +70,7 @@ export const portfolioData = {
       year: "2022",
       location: "Anne Arundel Community College",
       description: "The project aims to study the precedent and analyze where you can create perspective and interior drawings and use what you learned about adding color to the drawing, making the house come alive.",
-      image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image9.png?raw=true"
+      image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image10.png?raw=true"
     },
     {
       id: 5,
