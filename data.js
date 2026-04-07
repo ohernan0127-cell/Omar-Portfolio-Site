@@ -56,11 +56,11 @@ export const portfolioData = {
     },
     {
       id: 3,
-      title: "Desert Retreat",
-      category: "Hospitality",
+      title: "GoatBarn lane",
+      category: "Revit Project",
       year: "2024",
-      location: "Joshua Tree, USA",
-      description: "An eco-conscious retreat designed to harmonize with the rugged desert terrain, utilizing local materials and passive cooling techniques.",
+      location: "UMD, College Park",
+      description: "This Course was introduction to the use of rendering and archiecture plan production with a existing building,mainly with the usage of revit",
       image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200"
     },
     {
