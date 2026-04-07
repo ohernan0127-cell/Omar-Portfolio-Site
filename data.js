@@ -11,7 +11,7 @@ export const portfolioData = {
   about: {
     image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image6.jpeg?raw=true",
     subtitle: "About Me",
-    title: "Dedication can take you a long",
+    title: "Dedication can take you a long way",
     description: "Currently awaiting graduation in May 2026. After completing an Associates and Bachelors degree, I will now be pursuing a Masters degree at the University of Maryland. ",
     stats: [
       {
