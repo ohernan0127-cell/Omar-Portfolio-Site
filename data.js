@@ -83,12 +83,12 @@ export const portfolioData = {
     },
     {
       id: 6,
-      title: "The Floating House",
-      category: "Residential",
+      title: "Tiny House",
+      category: "Revit Project",
       year: "2022",
-      location: "Lake Como, Italy",
-      description: "A cantilevered structure that appears to float above the water, offering panoramic views and a sense of weightlessness.",
-      image: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=1200"
+      location: "Anne Arundel Community College",
+      description: "Designed based on Specification within an assignment. The site location was not specified but the values of resiliency in it's materials components were tested on the International Building Codes that applied based on size.",
+      image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image11.png?raw=true"
     }
   ]
 };
