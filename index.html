@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArchiMinimal | Architectural Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 px-8 py-6 flex justify-between items-center mix-blend-difference text-white">
+      <div class="text-xl tracking-tighter font-medium">ARCHI.</div>
+      <div class="hidden md:flex space-x-12 text-xs uppercase tracking-widest">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-xs uppercase tracking-widest">Menu</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="h-screen flex items-center px-8 md:px-20 relative overflow-hidden">
+      <div class="z-10 max-w-4xl">
+        <p id="hero-subtitle" class="text-xs uppercase tracking-[0.4em] mb-6 animate-fade-in opacity-60">Architecture & Design Studio</p>
+        <h1 id="hero-title" class="text-6xl md:text-9xl leading-[0.9] mb-8 animate-fade-in" style="animation-delay: 0.2s;">
+          Defining <br> <i>Space</i> through <br> Simplicity.
+        </h1>
+        <div class="animate-fade-in" style="animation-delay: 0.4s;">
+          <a id="hero-button" href="#projects" class="inline-block border border-black px-8 py-4 text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-colors">
+            View Projects
+          </a>
+        </div>
+      </div>
+      <div class="absolute right-0 top-0 w-1/2 h-full opacity-10 pointer-events-none">
+        <img id="hero-bg" src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&q=80&w=1200" alt="Background" class="w-full h-full object-cover">
+      </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section id="projects" class="px-8 md:px-20 py-32 bg-white">
+      <div class="flex justify-between items-end mb-20">
+        <div>
+          <p class="text-xs uppercase tracking-widest text-gray-400 mb-4">Selected Works</p>
+          <h2 class="text-5xl">Portfolio</h2>
+        </div>
+        <div class="hidden md:block text-xs text-gray-400 max-w-xs text-right">
+          A collection of projects that explore the intersection of functionality and aesthetic purity.
+        </div>
+      </div>
+      <div id="project-gallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Projects will be injected by script.js -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="px-8 md:px-20 py-32 flex flex-col md:flex-row gap-20 items-center">
+      <div class="w-full md:w-1/2">
+        <img id="about-image" src="https://images.unsplash.com/photo-1503387762-592dee582a7b?auto=format&fit=crop&q=80&w=1200" alt="Architectural Detail" class="w-full h-[600px] object-cover grayscale">
+      </div>
+      <div class="w-full md:w-1/2 space-y-8">
+        <p id="about-subtitle" class="text-xs uppercase tracking-widest text-gray-400">Our Philosophy</p>
+        <h2 id="about-title" class="text-5xl leading-tight">We believe that architecture is the art of subtraction.</h2>
+        <p id="about-description" class="text-lg text-gray-600 leading-relaxed">
+          Founded in 2015, ArchiMinimal is a design practice dedicated to creating spaces that inspire tranquility and focus. Our approach is rooted in the belief that the most powerful designs are those that remove the unnecessary, leaving only what is essential.
+        </p>
+        <div id="about-stats" class="pt-8 grid grid-cols-2 gap-8">
+          <div>
+            <h4 class="text-3xl mb-2">12+</h4>
+            <p class="text-xs uppercase tracking-widest text-gray-400">Awards Won</p>
+          </div>
+          <div>
+            <h4 class="text-3xl mb-2">85</h4>
+            <p class="text-xs uppercase tracking-widest text-gray-400">Projects Built</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="px-8 md:px-20 py-32 bg-black text-white">
+      <div class="max-w-4xl mx-auto text-center space-y-12">
+        <h2 id="contact-title" class="text-6xl md:text-8xl">Let's build <br> <i>together.</i></h2>
+        <p id="contact-subtitle" class="text-xl text-gray-400">Have a project in mind? We'd love to hear from you.</p>
+        <div class="pt-12 flex flex-col md:flex-row justify-center gap-12 text-xs uppercase tracking-widest">
+          <a id="contact-email" href="mailto:hello@archiminimal.com" class="hover:text-gray-400 transition-colors">hello@archiminimal.com</a>
+          <a id="contact-phone" href="tel:+1234567890" class="hover:text-gray-400 transition-colors">+1 (234) 567-890</a>
+          <span id="contact-address">123 Design St, Berlin, DE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="px-8 py-12 flex justify-between items-center text-[10px] uppercase tracking-[0.3em] opacity-40">
+      <div>© 2026 ArchiMinimal Studio</div>
+      <div class="flex space-x-8">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Behance</a>
+      </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+      <div class="fixed top-8 right-8 z-[1100]">
+        <button id="close-modal" class="text-xs uppercase tracking-widest flex items-center group">
+          <span class="mr-2 group-hover:mr-4 transition-all">Close</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div id="modal-content">
+        <!-- Content injected by script.js -->
+      </div>
+    </div>
+
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
+
