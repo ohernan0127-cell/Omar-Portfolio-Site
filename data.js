@@ -29,9 +29,9 @@ export const portfolioData = {
   contact: {
     title: "Let's build <br> <i>together.</i>",
     subtitle: "Have a project in mind? We'd love to hear from you.",
-    email: "hello@archiminimal.com",
+    email: "omar0127@outlook.com",
     phone: "+1 (443) 822-5413",
-    address: "123 Design St, Berlin, DE"
+    address: "Annapolis, Maryland"
   },
 
   // Projects Array
