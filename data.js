@@ -60,7 +60,7 @@ export const portfolioData = {
       category: "Revit Project",
       year: "2024",
       location: "UMD, College Park",
-      description: "This Course was introduction to the use of rendering and archiecture plan production with a existing building,mainly with the usage of revit",
+      description: "This Course was introduction to the use of rendering and architecture plan production within an existing building, mainly with the usage of Revit",
       image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image8.png?raw=true"
     },
     {
