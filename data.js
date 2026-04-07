@@ -9,7 +9,7 @@ export const portfolioData = {
 
   // About Section
   about: {
-    image: "https://images.unsplash.com/photo-1503387762-592dee582a7b?auto=format&fit=crop&q=80&w=1200",
+    image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image6.jpeg?raw=true",
     subtitle: "About Me",
     title: "Dedication can take you a long",
     description: "Currently awaiting graduation in May 2026. After completing an Associates and Bachelors degree, I will now be pursuing a Masters degree at the University of Maryland. ",
