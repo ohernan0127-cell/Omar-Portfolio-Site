@@ -4,7 +4,7 @@ export const portfolioData = {
     subtitle: "Architecture & Design Studio",
     title: "Defining <br> <i>Space</i> through <br> Simplicity.",
     buttonText: "View Projects",
-    backgroundImage: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&q=80&w=1200"
+    backgroundImage: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image5.png?raw=true"
   },
 
   // About Section
