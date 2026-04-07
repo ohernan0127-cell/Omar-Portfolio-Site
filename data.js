@@ -65,12 +65,12 @@ export const portfolioData = {
     },
     {
       id: 4,
-      title: "Urban Loft",
-      category: "Residential",
-      year: "2021",
-      location: "Berlin, Germany",
-      description: "Transformation of a historic industrial warehouse into a modern living space, preserving original structural elements.",
-      image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=1200"
+      title: "Farnsworth House",
+      category: "Graphic Communication Project",
+      year: "2022",
+      location: "Anne Arundel Community College",
+      description: "The project aims to study the precedent and analyze where you can create perspective and interior drawings and use what you learned about adding color to the drawing, making the house come alive.",
+      image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image9.png?raw=true"
     },
     {
       id: 5,
