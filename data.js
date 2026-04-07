@@ -10,17 +10,17 @@ export const portfolioData = {
   // About Section
   about: {
     image: "https://images.unsplash.com/photo-1503387762-592dee582a7b?auto=format&fit=crop&q=80&w=1200",
-    subtitle: "Our Philosophy",
-    title: "We believe that architecture is the art of subtraction.",
-    description: "Founded in 2015, ArchiMinimal is a design practice dedicated to creating spaces that inspire tranquility and focus. Our approach is rooted in the belief that the most powerful designs are those that remove the unnecessary, leaving only what is essential.",
+    subtitle: "About Me",
+    title: "Dedication can take you a long",
+    description: "Currently awaiting graduation in May 2026. After completing an Associates and Bachelors degree, I will now be pursuing a Masters degree at the University of Maryland. ",
     stats: [
       {
-        value: "12+",
-        label: "Awards Won"
+        value: "7",
+        label: "Years in Academia"
       },
       {
-        value: "85",
-        label: "Projects Built"
+        value: "3",
+        label: "Prior Experience"
       }
     ]
   },
