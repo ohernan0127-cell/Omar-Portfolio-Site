@@ -38,11 +38,10 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "The Concrete Monolith",
-      category: "Residential",
-      year: "2023",
-      location: "Zurich, Switzerland",
-      description: "A brutalist-inspired residence that plays with light and shadow through its massive concrete volumes and strategic openings.",
+      title: "Spiraling Tower",
+      category: "Parametric Project",
+      year: "2025",
+      description: "The purpose for creating a spiraling tower was to show the concept of shift in tectonic plates. ",
       image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200"
     },
     {
