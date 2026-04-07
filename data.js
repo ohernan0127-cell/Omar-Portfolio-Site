@@ -60,7 +60,7 @@ export const portfolioData = {
       category: "Revit Project",
       year: "2024",
       location: "UMD, College Park",
-      description: "This Course was introduction to the use of rendering and architecture plan production within an existing building, mainly with the usage of Revit",
+      description: "This course was introduction to the use of rendering and architecture plan production within an existing building, mainly with the usage of Revit",
       image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image8.png?raw=true"
     },
     {
@@ -78,7 +78,7 @@ export const portfolioData = {
       category: "Pavillion Project",
       year: "2024",
       location: "UMD College Park",
-      description: "In course the main objective was to gain skills using the software Rhino alongside 3D printing through Grasshopper. This works meticulous development of a pavillion design.",
+      description: "In the course the main objective was to gain skills using the software Rhino alongside 3D printing through Grasshopper. This works meticulous development of a pavillion design.",
       image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image9.png?raw=true"
     },
     {
@@ -87,7 +87,7 @@ export const portfolioData = {
       category: "Revit Project",
       year: "2022",
       location: "Anne Arundel Community College",
-      description: "Designed based on Specification within an assignment. The site location was not specified but the values of resiliency in it's materials components were tested on the International Building Codes that applied based on size.",
+      description: "Designed based on specifications within an assignment. The site location was not specified but the values of resiliency in it's materials components were tested on the International Building Codes that applied based on size.",
       image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image11.png?raw=true"
     }
   ]
