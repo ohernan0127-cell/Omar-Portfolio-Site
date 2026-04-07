@@ -43,7 +43,7 @@ export const portfolioData = {
       year: "2025",
       location: "UMD, College Park",
       description: "The purpose for creating a spiraling tower was to show the concept of shift in tectonic plates. ",
-      image: "/images/image1.png"
+      image: "image1.png"
     },
     {
       id: 2,
