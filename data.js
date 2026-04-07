@@ -47,11 +47,11 @@ export const portfolioData = {
     },
     {
       id: 2,
-      title: "Glass Pavilion",
-      category: "Commercial",
-      year: "2022",
-      location: "Tokyo, Japan",
-      description: "A transparent workspace that blurs the boundary between interior and exterior, fostering a connection with the surrounding urban landscape.",
+      title: "La Galerie Du Corbu",
+      category: "Museum Project",
+      year: "2024",
+      location: "UMD, College Park",
+      description: "Project aim to create a plaza and a barbor of kits to create a concept that would interact and show a connection with the site, especially with the harbor.",
       image: "https://images.unsplash.com/photo-1449156003053-c3d8c0f11273?auto=format&fit=crop&q=80&w=1200"
     },
     {
