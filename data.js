@@ -27,8 +27,8 @@ export const portfolioData = {
 
   // Contact Section
   contact: {
-    title: "Let's build <br> <i>together.</i>",
-    subtitle: "Have a project in mind? We'd love to hear from you.",
+    title: "Don't <br> <i>hesitate</i>",
+    subtitle: "Have an inquiry in mind? I'd love to hear from you.",
     email: "omar0127@outlook.com",
     phone: "+1 (443) 822-5413",
     address: "Annapolis, Maryland"
