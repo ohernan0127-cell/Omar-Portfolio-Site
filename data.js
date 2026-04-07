@@ -30,7 +30,7 @@ export const portfolioData = {
     title: "Let's build <br> <i>together.</i>",
     subtitle: "Have a project in mind? We'd love to hear from you.",
     email: "hello@archiminimal.com",
-    phone: "+1 (234) 567-890",
+    phone: "+1 (443) 822-5413",
     address: "123 Design St, Berlin, DE"
   },
 
