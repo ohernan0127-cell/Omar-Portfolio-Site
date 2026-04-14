@@ -64,8 +64,8 @@ export const portfolioData = {
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image2.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image3.png?raw=true"
       ],
-      courseClass: "ARCH 400: Advanced Parametric Design",
-      softwareMaterials: "Rhino, Grasshopper, V-Ray"
+      courseClass: "ARCH 448O: Applied Digital Fabrication",
+      softwareMaterials: "Rhino, Grasshopper"
     },
     {
       id: 2,
@@ -80,7 +80,7 @@ export const portfolioData = {
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image4.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image5.png?raw=true"
       ],
-      courseClass: "ARCH 300: Museum Design Studio",
+      courseClass: "ARCH 400: Architecture Design Studio",
       softwareMaterials: "AutoCAD, SketchUp, Photoshop"
     },
     {
@@ -96,8 +96,8 @@ export const portfolioData = {
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image9.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image10.png?raw=true"
       ],
-      courseClass: "ARCH 200: Building Information Modeling",
-      softwareMaterials: "Revit, Enscape, Lumion"
+      courseClass: "ARCH 472: Building Information Modeling",
+      softwareMaterials: "Revit"
     },
     {
       id: 4,
@@ -112,8 +112,8 @@ export const portfolioData = {
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image11.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image1.png?raw=true"
       ],
-      courseClass: "ARCH 101: Architectural Graphics",
-      softwareMaterials: "AutoCAD, Adobe Illustrator, Hand Drawing"
+      courseClass: "ARCH 111: Graphic Communication",
+      softwareMaterials: "Adobe Illustrator, Hand Drawing"
     },
     {
       id: 5,
@@ -128,7 +128,7 @@ export const portfolioData = {
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image2.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image3.png?raw=true"
       ],
-      courseClass: "ARCH 350: Computational Design",
+      courseClass: "ARCH 470: Computer Application in Architecture",
       softwareMaterials: "Rhino, Grasshopper, 3D Printer"
     },
     {
@@ -144,8 +144,8 @@ export const portfolioData = {
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image4.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image5.png?raw=true"
       ],
-      courseClass: "ARCH 150: Residential Design",
-      softwareMaterials: "Revit, SketchUp, Energy Modeling Software"
+      courseClass: "ARCH 240: Residential Design",
+      softwareMaterials: "Revit"
     }
   ]
 };
