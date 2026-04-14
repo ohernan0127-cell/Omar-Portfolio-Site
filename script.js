@@ -1,7 +1,7 @@
 import { portfolioData } from './data.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const { hero, about, contact, projects } = portfolioData;
+  const { hero, about, contact, footer, projects } = portfolioData;
 
   // 1. Populate Hero Section
   document.getElementById('hero-subtitle').innerHTML = hero.subtitle;
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const statsHtml = about.stats.map(stat => `
     <div>
       <h4 class="text-3xl mb-2">${stat.value}</h4>
-      <p class="text-xs uppercase tracking-widest text-gray-400">${stat.label}</p>
+      <p class="text-xs uppercase tracking-widest text-black">${stat.label}</p>
     </div>
   `).join('');
   document.getElementById('about-stats').innerHTML = statsHtml;
@@ -32,7 +32,14 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('contact-phone').href = `tel:${contact.phone.replace(/[^0-9+]/g, '')}`;
   document.getElementById('contact-address').innerHTML = contact.address;
 
-  // 4. Render Projects
+  // 4. Populate Footer Section
+  document.getElementById('footer-copyright').innerHTML = footer.copyright;
+  const footerLinksHtml = footer.links.map(link => `
+    <a href="${link.url}">${link.name}</a>
+  `).join('');
+  document.getElementById('footer-links').innerHTML = footerLinksHtml;
+
+  // 5. Render Projects
   const gallery = document.getElementById('project-gallery');
   const modal = document.getElementById('project-modal');
   const modalContent = document.getElementById('modal-content');

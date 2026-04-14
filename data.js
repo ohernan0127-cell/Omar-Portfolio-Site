@@ -34,6 +34,21 @@ export const portfolioData = {
     address: "Annapolis, Maryland"
   },
 
+  // Footer Section
+  footer: {
+    copyright: "© 2026 Omar Hernandez",
+    links: [
+      {
+        name: "Resume",
+        url: "#"
+      },
+      {
+        name: "Full Portfolio",
+        url: "#"
+      }
+    ]
+  },
+
   // Projects Array
   projects: [
     {
