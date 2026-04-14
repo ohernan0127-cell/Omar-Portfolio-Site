@@ -11,28 +11,28 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="fixed top-0 left-0 w-full z-50 px-8 py-6 flex justify-between items-center mix-blend-difference text-white">
-      <div class="text-xl tracking-tighter font-medium">ARCHI.</div>
-      <div class="hidden md:flex space-x-12 text-xs uppercase tracking-widest">
+    <nav class="fixed top-0 left-0 w-full z-50 px-8 py-6 flex justify-between items-center bg-white bg-opacity-90 backdrop-blur-sm">
+      <div class="text-xl tracking-tighter font-medium" style="color: var(--color-navy-dark);">ARCHI.</div>
+      <div class="hidden md:flex space-x-12 text-xs uppercase tracking-widest" style="color: var(--color-navy-dark);">
         <a href="#home" class="nav-link">Home</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#about" class="nav-link">About</a>
         <a href="#contact" class="nav-link">Contact</a>
       </div>
       <div class="md:hidden">
-        <button id="menu-toggle" class="text-xs uppercase tracking-widest">Menu</button>
+        <button id="menu-toggle" class="text-xs uppercase tracking-widest" style="color: var(--color-navy-dark);">Menu</button>
       </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="h-screen flex items-center px-8 md:px-20 relative overflow-hidden">
+    <section id="home" class="h-screen flex items-center px-8 md:px-20 relative overflow-hidden" style="background-color: var(--color-navy-light);">
       <div class="z-10 max-w-4xl">
         <p id="hero-subtitle" class="text-xs uppercase tracking-[0.4em] mb-6 animate-fade-in opacity-60">Architecture & Design Studio</p>
         <h1 id="hero-title" class="text-6xl md:text-9xl leading-[0.9] mb-8 animate-fade-in" style="animation-delay: 0.2s;">
           Defining <br> <i>Space</i> through <br> Simplicity.
         </h1>
         <div class="animate-fade-in" style="animation-delay: 0.4s;">
-          <a id="hero-button" href="#projects" class="inline-block border border-black px-8 py-4 text-xs uppercase tracking-widest hover:bg-black hover:text-white transition-colors">
+          <a id="hero-button" href="#projects" class="inline-block border border-current px-8 py-4 text-xs uppercase tracking-widest hover:bg-current hover:text-white transition-colors" style="color: var(--color-navy-dark);">
             View Projects
           </a>
         </div>
@@ -59,7 +59,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="px-8 md:px-20 py-32 flex flex-col md:flex-row gap-20 items-center">
+    <section id="about" class="px-8 md:px-20 py-32 flex flex-col md:flex-row gap-20 items-center" style="background-color: var(--color-navy-medium);">
       <div class="w-full md:w-1/2">
         <img id="about-image" src="https://images.unsplash.com/photo-1503387762-592dee582a7b?auto=format&fit=crop&q=80&w=1200" alt="Architectural Detail" class="w-full h-[600px] object-cover grayscale">
       </div>
@@ -87,7 +87,12 @@
       <div class="max-w-4xl mx-auto text-center space-y-12">
         <h2 id="contact-title" class="text-6xl md:text-8xl">Let's build <br> <i>together.</i></h2>
         <p id="contact-subtitle" class="text-xl text-gray-400">Have a project in mind? We'd love to hear from you.</p>
-        <div class="pt-12 flex flex-col md:flex-row justify-center gap-12 text-xs uppercase tracking-widest">
+        <div class="pt-8">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScqFJplDKVDyljhJHcjqMdeVIwVNYFlu9ax6mYB14B_7LNtpw/viewform?usp=publish-editor" target="_blank" class="inline-block bg-white text-black px-8 py-4 text-xs uppercase tracking-widest hover:bg-gray-200 transition-colors mb-8">
+            Get In Contact
+          </a>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center gap-12 text-xs uppercase tracking-widest">
           <a id="contact-email" href="mailto:hello@archiminimal.com" class="hover:text-gray-400 transition-colors">hello@archiminimal.com</a>
           <a id="contact-phone" href="tel:+1234567890" class="hover:text-gray-400 transition-colors">+1 (234) 567-890</a>
           <span id="contact-address">123 Design St, Berlin, DE</span>

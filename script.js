@@ -54,11 +54,31 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   function openProject(project) {
+    let currentImageIndex = 0;
+    const images = project.images || [project.image];
+
+    const updateImage = () => {
+      const imgElement = modalContent.querySelector('.project-image');
+      imgElement.src = images[currentImageIndex];
+    };
+
     modalContent.innerHTML = `
-      <div class="max-w-5xl mx-auto px-6 py-20">
+      <div class="max-w-6xl mx-auto px-6 py-20">
         <div class="grid md:grid-cols-2 gap-12 items-start">
-          <div>
-            <img src="${project.image}" alt="${project.title}" class="w-full h-auto shadow-2xl">
+          <div class="relative">
+            <img src="${images[0]}" alt="${project.title}" class="w-full h-auto shadow-2xl project-image">
+            ${images.length > 1 ? `
+              <button class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75 transition-all prev-image">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15,18 9,12 15,6"></polyline>
+                </svg>
+              </button>
+              <button class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75 transition-all next-image">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9,18 15,12 9,6"></polyline>
+                </svg>
+              </button>
+            ` : ''}
           </div>
           <div class="space-y-8">
             <div>
@@ -70,17 +90,33 @@ document.addEventListener('DOMContentLoaded', () => {
               ${project.description}
             </p>
             <div class="pt-8 border-t border-gray-200">
-              <h4 class="text-xs uppercase tracking-widest mb-4">Specifications</h4>
+              <h4 class="text-xs uppercase tracking-widest mb-4">Project Details</h4>
               <ul class="space-y-2 text-sm text-gray-600">
-                <li class="flex justify-between"><span>Area</span> <span>450 m²</span></li>
-                <li class="flex justify-between"><span>Status</span> <span>Completed</span></li>
-                <li class="flex justify-between"><span>Client</span> <span>Private</span></li>
+                <li class="flex justify-between"><span>Course Class</span> <span>${project.courseClass}</span></li>
+                <li class="flex justify-between"><span>Software/Materials</span> <span>${project.softwareMaterials}</span></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     `;
+
+    // Add event listeners for image navigation
+    if (images.length > 1) {
+      const prevBtn = modalContent.querySelector('.prev-image');
+      const nextBtn = modalContent.querySelector('.next-image');
+
+      prevBtn.addEventListener('click', () => {
+        currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+        updateImage();
+      });
+
+      nextBtn.addEventListener('click', () => {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        updateImage();
+      });
+    }
+
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
