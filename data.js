@@ -1,8 +1,8 @@
 export const portfolioData = {
   // Hero Section
   hero: {
-    subtitle: "Architecture & Design Studio",
-    title: "Defining <br> <i>Space</i> through <br> Simplicity.",
+    subtitle: "Omar Hernandez",
+    title: "UMD GRAD Portfolio.",
     buttonText: "View Projects",
     backgroundImage: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image5.png?raw=true"
   },
@@ -27,8 +27,8 @@ export const portfolioData = {
 
   // Contact Section
   contact: {
-    title: "Don't <br> <i>hesitate</i>",
-    subtitle: "Have an inquiry in mind? I'd love to hear from you.",
+    title: "Hello,",
+    subtitle: "Have question in mind? I'd love to hear from you.",
     email: "omar0127@outlook.com",
     phone: "+1 (443) 822-5413",
     address: "Annapolis, Maryland"
