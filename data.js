@@ -110,7 +110,7 @@ export const portfolioData = {
       images: [
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image10.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/img14.png?raw=true",
-        "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image1.png?raw=true"
+        "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/img15.png?raw=true"
       ],
       courseClass: "ARCH 111: Graphic Communication",
       softwareMaterials: "Adobe Illustrator, Hand Drawing"
