@@ -141,7 +141,7 @@ export const portfolioData = {
       image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image11.png?raw=true",
       images: [
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image11.png?raw=true",
-        "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image4.png?raw=true",
+        "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/img16.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image5.png?raw=true"
       ],
       courseClass: "ARCH 240: Residential Design",
