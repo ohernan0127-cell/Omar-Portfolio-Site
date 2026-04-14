@@ -93,7 +93,7 @@ export const portfolioData = {
       image: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image8.png?raw=true",
       images: [
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image8.png?raw=true",
-        "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image9.png?raw=true",
+        "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/img12.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image10.png?raw=true"
       ],
       courseClass: "ARCH 472: Building Information Modeling",
