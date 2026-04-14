@@ -142,7 +142,7 @@ export const portfolioData = {
       images: [
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image11.png?raw=true",
         "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/img16.png?raw=true",
-        "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/image5.png?raw=true"
+        "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/main/img17.png?raw=true"
       ],
       courseClass: "ARCH 240: Residential Design",
       softwareMaterials: "Revit"
