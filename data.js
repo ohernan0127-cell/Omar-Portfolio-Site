@@ -40,7 +40,7 @@ export const portfolioData = {
     links: [
       {
         name: "Resume",
-        url: "#"
+        url: "https://github.com/ohernan0127-cell/Omar-Portfolio-Site/blob/1338d7a63940d3d8b7b6364b0c2592eb9b017dcc/Omar%20Hernadez_Online%20Resume.pdf"
       },
       {
         name: "Full Portfolio",
